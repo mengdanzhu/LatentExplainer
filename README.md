@@ -15,4 +15,4 @@ To train CS VAE models:
 ```bash
 python csvae/csvae_train.py --dataset <dataset_name>
 ```
-<dataset_name> could be '3dshapes','dsprites','celeba'.
+<dataset_name> could be '3dshapes', 'dsprites', 'celeba'.
