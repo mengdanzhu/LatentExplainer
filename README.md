@@ -23,6 +23,10 @@ The code implementations build upon the work from the following repositories: [C
 
 
 ## Evaluation
+To find the best explanation with the highest similarity, the threshold of a clear explanation and to compute the certainty scores:
+```bash
+python evaluation/auc_cossim.py 
+```
 When you have the folders of the explanations with the highest similarity and human references ready, you can compute the metrics:
 ```bash
 python evaluation/metrics.py 
