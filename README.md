@@ -19,3 +19,11 @@ To manipulate the latent variables with a specific property from CSVAE models:
 ```bash
 python csvae/csvae_test.py --dataset 'celeba'
 ```
+The code implementations build upon the work from the following repositories: [CSVAE](https://github.com/alexlyzhov/latent-subspaces), [PCVAE](https://github.com/xguo7/PCVAE), [Diffusion Pullback](https://github.com/enkeejunior1/Diffusion-Pullback/tree/main).
+
+
+## Evaluation
+When you have the folders of the explanations with the highest similarity and human references ready, you can compute the metrics:
+```bash
+python evaluation/metrics.py 
+```
