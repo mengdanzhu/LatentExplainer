@@ -4,6 +4,11 @@ This repository is the official implementation of "LatentExplainer: Explaining L
 
 <img src="main_figure.png" >
 
+## Installation
+To install the packages in this project, run the following command:
+```bash
+pip install -r requirements.txt
+```
 
 ## Training/Loading Generative Models and Data Manipulation
 To manipulate the latent variables along a semantic latent direction from a pretrained DDPM model:
