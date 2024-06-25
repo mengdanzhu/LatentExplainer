@@ -17,3 +17,5 @@ seaborn
 Pillow
 tqdm
 opencv-python
+scikit-learn
+git+https://github.com/salaniz/pycocoevalcap
