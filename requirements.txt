@@ -16,3 +16,4 @@ pandas
 seaborn
 Pillow
 tqdm
+opencv-python
