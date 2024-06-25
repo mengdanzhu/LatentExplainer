@@ -5,7 +5,7 @@ This repository is the official implementation of "LatentExplainer: Explaining L
 <img src="main_figure.png" >
 
 
-## Training/Loading generative models and Data Manipulation
+## Training/Loading Generative Models and Data Manipulation
 To manipulate the latent variables along a semantic latent direction from a pretrained DDPM model:
 ```bash
 bash Diffusion/src/scripts/main_celeba_hf_local_encoder_pullback.sh
