@@ -14,11 +14,20 @@ To manipulate the latent variables with a specific prompt from a pretrained Stab
 ```bash
 bash Diffusion/src/scripts/main_various_local_encoder_pullback_with_edit_prompt.sh
 ```
+To train β-TCVAE models:
+```bash
+python betatcvae/betatcvae_train.py 
+```
+To manipulate the latent variables along each latent dimension for β-TCVAE models and compare:
+```bash
+python betatcvae/betatcvae_test.py 
+```
+
 To train CSVAE models:
 ```bash
 python csvae/csvae_train.py --dataset 'celeba'
 ```
-To manipulate the latent variables with a specific property from CSVAE models:
+To manipulate the latent variables with a specific property for CSVAE models:
 ```bash
 python csvae/csvae_test.py --dataset 'celeba'
 ```
