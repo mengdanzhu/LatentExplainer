@@ -2,6 +2,9 @@
 
 This repository is the official implementation of "LatentExplainer: Explaining Latent Representations in Deep Generative Models with Multi-modal Foundation Models".
 
+<img src="main_figure.png" >
+
+
 ## Training/Loading generative models and Data Manipulation
 To manipulate the latent variables along a semantic latent direction from a pretrained DDPM model:
 ```bash
