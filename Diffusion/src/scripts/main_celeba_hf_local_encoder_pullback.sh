@@ -4,13 +4,13 @@ for t in 1.0
     for sample_idx in {22..45}
         do
         python main.py \
-            --sh_file_name                          main_church_local_encoder_pullback.sh    \
+            --sh_file_name                          main_celeba_hf_local_encoder_pullback.sh    \
             --sample_idx                            $sample_idx                                 \
             --device                                cuda:0                                      \
             --dtype                                 fp32                                        \
             --seed                                  0                                           \
             --model_name                            CelebA_HQ_HF                                \
-            --dataset_name                          LSUN_church                                   \
+            --dataset_name                          CelebA_HQ                                   \
             --for_steps                             100                                         \
             --inv_steps                             100                                         \
             --use_yh_custom_scheduler               True                                        \
