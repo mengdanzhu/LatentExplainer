@@ -1,6 +1,6 @@
 # LatentExplainer
 
-This repository is the official implementation of "LatentExplainer: Explaining Latent Representations in Deep Generative Models with Multi-modal Foundation Models".
+This repository is the official implementation of "LatentExplainer: Explaining Latent Representations in Deep Generative Models with Multimodal Large Language Models".
 
 <img src="main_figure.png" >
 
